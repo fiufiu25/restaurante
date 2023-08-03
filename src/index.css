@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+}
+ul{
+ padding-left: 10px;
+
+ 
+}
+ul .lins{
+  background-color:rgb(40, 40, 54);
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  list-style: none;
+  margin-bottom: 10px;
+
+}
+ul .lins a{
+  display: block;
+  background-color:rgb(228, 137, 104);
+  border-radius: 10px;
+padding: 6px;
+text-align: center;
+}
+.lins a .iconlink{
+  color: whitesmoke;
+}
+
+ul .lins1:hover {
+  background-color:rgb(40, 40, 54);
+}
+ul .lins1 a:hover{
+  background-color:rgb(228, 137, 104);
+}
+ul .lins1 a:hover .iconlink{
+color: whitesmoke;
+}
+ul .lins1{
+ 
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  list-style: none;
+  margin-bottom: 10px;
+
+}
+ul .lins1 a{
+  display: block;
+  
+  border-radius: 10px;
+padding: 6px;
+text-align: center;
+}
+.lins1 a .iconlink{
+  color:rgb(228, 137, 104);
+}
+
+.buscar{
+  background-color: rgb(29, 29, 44);
+  display: flex;
+  padding: 8px;
+  border-radius:5px ;
+  align-items: center;
+  gap: 4px;
+}
+
+.buscar input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+
+}
+@media (max-width:400px) {
+  .buscar input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    width: 100%;
+  
+  }
+  
+.buscar{
+  width: 100%;
+}
+  
+}
+.buscar input::placeholder{
+  color:whitesmoke;
+}
+.list_comida li{
+  list-style: none;
+ margin-left: -9px;
+}
+.list_comida li a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+ 
+}
+
+@media (max-width:500px) {
+  .list_comida li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+   
+   
+  }
+  
+}
+
+
+.list_comida{
+  border-bottom: 1px solid rgb(177, 41, 41);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 30px;
+  
+}
+.cenardiv{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: rgb(29, 29, 44);
+  color: white;
+  width: 110px;
+  border-radius: 7px;
+}
+.principal{
+  display: flex;
+}
+.ulbton{
+  display: flex;
+  justify-content: start;
+  gap: 20px
+  
+}
+.ulbton .libton {
+
+  background-color:rgb(228, 137, 104);
+  padding: 8px 5px;
+  border-radius: 5px;
+ 
+  list-style: none;
+  margin-left: -12px;
+}
+.ulbton .libton a{
+  text-decoration: none;
+  color: white;
+
+}
+.ulbton .libton1 {
+
+  background-color:transparent;
+  padding: 8px 5px;
+  border-radius: 5px;
+ border: 1px solid whitesmoke;
+  list-style: none;
+  margin-left: -12px;
+}
+.ulbton .libton1 a{
+  text-decoration: none;
+  color: rgb(228, 137, 104);
+
+}
+.scroolorde{
+ 
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  padding: 2px;
+}
+.scroolorde::-webkit-scrollbar {
+  width: 5px; /* Ancho del scroll */
+}
+.scroolorde::-webkit-scrollbar-track {
+  background-color: #cbcaca; /* Color del fondo del scroll */
+}
+.scroolorde::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color del scroll */
+  border-radius: 5px; /* Bordes redondeados */
+}
+.hide{
+  display: none;
+ 
+}
+body{
+  background-color:rgb(29, 29, 44) ;
+}
